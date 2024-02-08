@@ -1,0 +1,26 @@
+    1  passwd
+    2  ping 172.20.25.9
+    3  wget www.github.com
+    4  pwd
+    5  echo $SHELL
+    6  ls -ltr
+    7  cat newfilewithvi.txt
+    8  cat index.html 
+    9  man more
+   10  wget www.github.com
+   11  ls
+   12  rm index.html.1
+   13  ls
+   14  mkdir cs131
+   15  ls
+   16  cd cs131
+   17  git init
+   18  git remote add origin https://github.com/TanishaD111/cs131.git
+   19  git config --global user.email "tanishadamle111@gmail.com"
+   20  git config --global user.name "tanishadamle"
+   21  wget github.com
+   22  git add .
+   23  ls -latr
+   24  mkdir Worksheet1
+   25  cd Worksheet1
+   26  history > cmds.log
