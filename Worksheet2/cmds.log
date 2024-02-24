@@ -1,0 +1,82 @@
+    1  passwd
+    2  ping 172.20.25.9
+    3  wget www.github.com
+    4  pwd
+    5  echo $SHELL
+    6  ls -ltr
+    7  cat newfilewithvi.txt
+    8  cat index.html 
+    9  man more
+   10  wget www.github.com
+   11  ls
+   12  rm index.html.1
+   13  ls
+   14  mkdir cs131
+   15  ls
+   16  cd cs131
+   17  git init
+   18  git remote add origin https://github.com/TanishaD111/cs131.git
+   19  git config --global user.email "tanishadamle111@gmail.com"
+   20  git config --global user.name "tanishadamle"
+   21  wget github.com
+   22  git add .
+   23  ls -latr
+   24  mkdir Worksheet1
+   25  cd Worksheet1
+   26  history > cmds.log
+   27  git add smds.log
+   28  git add cmds.log
+   29  git commit -m "first commit" -a
+   30  git branch
+   31  git push -u origin master
+   32  ls
+   33  cd cs131
+   34  ls
+   35  mkdir Worksheet2
+   36  ls
+   37  cd Worksheet2
+   38  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   39  ls
+   40  grep 'United States' "Global YouTube Statistics.csv" 
+   41  grep 'Music' "Global YouTube Statistics.csv" 
+   42  grep 'Music' "Global YouTube Statistics.csv" > musicCount.tx
+   43  ls
+   44  wc musicCount.txt 
+   45  rm musicCount.txt
+   46  ls
+   47  grep 'Music' "Global YouTube Statistics.csv" > musicCount.txt > counts.txt
+   48  ls
+   49  rm musicCount.txt
+   50  ls
+   51  wc counts.txt
+   52  ls
+   53  rm counts.txt
+   54  ls
+   55  wc grep 'Music' "Global YouTube Statistics.csv" 
+   56  grep 'Music' "Global YouTube Statistics.csv" > musicCount.txt
+   57  ls
+   58  wc musicCount.txt 
+   59  grep 'Music' "Global YouTube Statistics.csv" > counts.txt
+   60  wc musicCount.txt >> counts.txt
+   61  vi counts.txt
+   62  cd cs131
+   63  ls
+   64  rm worksheet2
+   65  rm Worksheet2
+   66  ls
+   67  cd Worksheet2
+   68  ls
+   69  rm counts.txt
+   70  rm "Global YouTube Statistics.csv" 
+   71  rm musicCount.txt
+   72  ls
+   73  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   74  ls
+   75  grep "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States,[^,].*" "Global YouTube Statistics.csv"
+   76  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music,[^,].*" "Global YouTube Statistics.csv"
+   77  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music,[^,].*" "Global YouTube Statistics.csv" > music.txt
+   78  wc music.txt 
+   79  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music,[^,].*" "Global YouTube Statistics.csv" > counts.txt
+   80  wc music.txt >> counts.txt
+   81  vi counts.txt
+   82  history > cmds.log
