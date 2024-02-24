@@ -80,3 +80,17 @@
    80  wc music.txt >> counts.txt
    81  vi counts.txt
    82  history > cmds.log
+   83  ls
+   84  git add smds.log counts.txt
+   85  git add cmds.log counts.txt
+   86  git branch
+   87  git commit -m "first commit" -a
+   88  git push -u origin master
+   89  grep "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States.*" "Global YouTube Statistics.csv"
+   90  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music.*" "Global YouTube Statistics.csv"
+   91  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music.*" "Global YouTube Statistics.csv" > music.txt
+   92  wc music.txt 
+   93  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music.*" "Global YouTube Statistics.csv" > counts.txt
+   94  wc music.txt >> counts.txt
+   95  vi counts.txt
+   96  history > cmds.log

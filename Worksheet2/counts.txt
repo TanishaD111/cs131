@@ -195,4 +195,5 @@
 988,Avril Lavigne,12400000,6202090191,Music,Avril Lavigne,205,United States,US,Music,999,176,150,50188000,12500,200800,150600,2400000,nan,2005,Oct,8,88.2,328239523,14.7,270663028,37.09024,-95.712891
 990,Migos ATL,12400000,6993406259,Music,Migos ATL,99,United States,US,Entertainment,833,175,171,49412000,12400,197600,148200,2400000,100000,2012,Jan,17,88.2,328239523,14.7,270663028,37.09024,-95.712891
   196   654 37799 music.txt
---annotation: the first number 196 is the line count, so that means there are 196 lines total for records in the Music category. the second number is word count, so it means there are 654 words in total for records in the Music category. the third number is the character count, so that means there are 37799 characters in total for records in the Music category.
+--annotation: The wc command produces the output seen above. The first number 196 means that the line count of the music.txt file is 196. The second number 654 means that the word count of the music.txt file is 654. The third number 37799 means that the character count of the music.txt file is 37799.
+ 
