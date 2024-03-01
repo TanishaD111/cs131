@@ -61,5 +61,5 @@ REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
 ----- Question 10 -----
 
 lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
---> This is the permission given to all users for the file containing the OS version information.
-
+--> This is the permission given to all users for the file containing the OS version information, of read, write, and execute.
+ 
