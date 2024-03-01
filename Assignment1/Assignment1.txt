@@ -1,0 +1,5 @@
+/bin/bash
+/mnt/scratch/FA23_CS131_Ashish/tanishasp24
+tanishasp24:x:1182:1182::/mnt/scratch/FA23_CS131_Ashish/tanishasp24:/bin/bash
+S77:x:77:abdulwahabf23,junf23,saniaf23,haroldf23,brendanf23,maximf23,nicholasf23,samuelf23,ashishf23,benjaminf23,jamesf23,gabrielf23,tienf23,jonathanf23,brandonf23,nathanf23,thif23,bhavdeepf23,aaronf23,hof23,rogeliof23,anasf23,josephf23,hamzaf23,zipengf23,rikkif23,kobef23,jewonf23,shervanf23,amreenf23,divijf23,rahulf23,stevenf23,ishaf23,ashishk,matthewsp24,ryansp24,jimmysp24,edisonsp24,diyasp24,yelinsp24,tylersp24,balasaisp24,xiaosp24,henrisp24,acesp24,sangsp24,bennysp24,atishaysp24,davidsp24,jessesp24,sunidhisp24,khushisp24,tanishasp24,farihasp24,rickysp24,albertsp24,georgesp24,nhatsp24,taliasp24,henrysp24,akashsp24,xuebosp24,jadonsp24,manassp24,sandrasp24,robertosp24,madhavsp24,megansp24,brandonsp24,tylermsp24,pratiksp24,kevinsp24,maysp24,hardiksp24,aarushisp24,ashish
+tanishasp24:x:1182:
