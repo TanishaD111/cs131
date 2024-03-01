@@ -215,23 +215,40 @@
   215  cd cs131
   216  mkdirAssignment1
   217  cd ..
+
+-----------------------------------------------------------------------------------
+
+----- Question 1 -----
+
   218  cd cs131
   219  mkdir Assignment1
   220  cd Assignment1
   221  vi Assignment1.txt
   222  ls
+
+----- Question 2 -----
+
   223  echo $SHELL
   224  echo $SHELL > Assignment1.txt
   225  vi Assignment1.txt
+
+----- Question 2 -----
+
   226  echo $HOME
   227  echo $HOME >> Assignment1.txt
   228  vi Assignment1.txt
+
+----- Question 3 -----
+
   229  grep tanishasp24 /etc/passwd
   230  grep tanishasp24 /etc/group
   231  id
   232  grep tanishasp24 /etc/passwd >> Assignment1.txt
   233  grep tanishasp24 /etc/group >> Assignment1.txt
   234  vi Assignment1.txt
+
+----- Question 4 -----
+
   235  mkdir myDir
   236  ls
   237  man chmod
@@ -241,9 +258,15 @@
   241  vi newFile.txt
   242  ls
   243  cd ..
+
+----- Question 5 -----
+
   244  mkdir myDir2
   245  mkdir myDir3
   246  ls
+
+----- Question 6 -----
+
   247  cd myDir2
   248  vi myFile.txt
   249  ls
@@ -255,6 +278,9 @@
   255  ls
   256  vi myFile.txt
   257  ls
+
+----- Question 6 -----
+
   258  man free
   259  free -m
   260  free -m > Assignment1.txt
@@ -264,11 +290,18 @@
   264  grep tanishasp24 /etc/group >> Assignment1.txt
   265  free -m >> Assignment1.txt
   266  vi Assignment1.txt
+
+----- Question 9 -----
+
   267  cat /etc/os-release
   268  cat /etc/os-release >> Assignment1.txt
   269  vi Assignment1.txt
+
+----- Question 10 -----
+
   270  ls -l /etc/os-release
   271  ls -l /etc/os-release >> Assignment1.txt
   272  vi Assignment1.txt
   273  cd ..
   274  history > cmds.log
+
