@@ -1,11 +1,45 @@
+----- Question 1 -----
+
+The commands used to make the directory are in the cmds.log file. First, I went into the cs131 directory with cd cs131. Then, I made the directory by using the command mkdir Assignment1.
+
+----- Question 2 -----
+
 /bin/bash
+
+----- Question 2 -----
+
 /mnt/scratch/FA23_CS131_Ashish/tanishasp24
+
+----- Question 3 -----
+
 tanishasp24:x:1182:1182::/mnt/scratch/FA23_CS131_Ashish/tanishasp24:/bin/bash
+--> my UID is: 1182
+
 S77:x:77:abdulwahabf23,junf23,saniaf23,haroldf23,brendanf23,maximf23,nicholasf23,samuelf23,ashishf23,benjaminf23,jamesf23,gabrielf23,tienf23,jonathanf23,brandonf23,nathanf23,thif23,bhavdeepf23,aaronf23,hof23,rogeliof23,anasf23,josephf23,hamzaf23,zipengf23,rikkif23,kobef23,jewonf23,shervanf23,amreenf23,divijf23,rahulf23,stevenf23,ishaf23,ashishk,matthewsp24,ryansp24,jimmysp24,edisonsp24,diyasp24,yelinsp24,tylersp24,balasaisp24,xiaosp24,henrisp24,acesp24,sangsp24,bennysp24,atishaysp24,davidsp24,jessesp24,sunidhisp24,khushisp24,tanishasp24,farihasp24,rickysp24,albertsp24,georgesp24,nhatsp24,taliasp24,henrysp24,akashsp24,xuebosp24,jadonsp24,manassp24,sandrasp24,robertosp24,madhavsp24,megansp24,brandonsp24,tylermsp24,pratiksp24,kevinsp24,maysp24,hardiksp24,aarushisp24,ashish
+--> I belong to: group 77
+
+----- Question 4 -----
+
+Once I removed the write permission for myself with chmod, I am allowed to cd into that directory. I am also allowed to ls this directory. I am also able to ls -l it. However, I am not allowed to create files under this directory. When I vi a text filei am not able to write into it and save it. 
+
+----- Question 5 -----
+
+I created the directories.
+
+----- Question 6 -----
+
+I created the text file and moved it from directories.
+
+----- Question 6 -----
+
 tanishasp24:x:1182:
               total        used        free      shared  buff/cache   available
 Mem:          71367       33031       19057        3516       19278       33360
 Swap:          4119           0        4119
+--> The total amount of RAM/Memory used in mebibytes is shown with this command of 71367. 
+
+----- Question 9 -----
+
 NAME="Red Hat Enterprise Linux"
 VERSION="8.6 (Ootpa)"
 ID="rhel"
@@ -17,10 +51,15 @@ ANSI_COLOR="0;31"
 CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
 HOME_URL="https://www.redhat.com/"
 DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
-BUG_REPORT_URL="https://bugzilla.redhat.com/"
-
+BUG_REPORT_URL="https://bugzilla.redhat.com/" 
 REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
 REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
 REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+--> The operating version is 8.6 Ootpa. The file under /etc/ is /etc/os-release.
+
+----- Question 10 -----
+
 lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+--> This is the permission given to all users for the file containing the OS version information.
+
