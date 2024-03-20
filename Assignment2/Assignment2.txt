@@ -1,12 +1,12 @@
------ Task 1 -----
+---- Task 1 ----
 
 a) With the "find /etc -type f > one.txt 2> two.txt" command, we will find all regular files only (not directories) within the /etc directory and all of its subdirectories. The standard output is redirected to the one.txt file, which contains all of the paths of the regular files that are found by the find command. The standard error is redirected to the two.txt file, which is where any error or warning that is given by the find command is printed. 
 
 b) The file "one.txt" contains all of the paths of the regular files starting with "/etc/" that are found by the find command. The file "two.txt" gives the command that was unsuccessful, the file that the error or warning occurred on, and the reason why the command was unsuccessful, such as "permission denied."
 
------ Task 2 -----
+---- Task 2 ----
 
-These were the first three lines of the output of the command: 
+These were the first three lines of the output of the command:
 
      15 2006,Mar
      13 2014,Jul
@@ -17,40 +17,56 @@ Therefore, the top three [Month, Year] with the most number of YouTube channels 
   2. July, 2014 with 13 channels
   3. August, 2014 with 12 channels
 
------ Task 3 -----
+The command I used to find this was: "cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3". To accomplish this task, I used the "cut" command. This cut command extracts column 20 and 21, which are the created year and created month column, respectively, from the "Global Youtube Statistics.csv" file and it uses a comma as the delimeter (with the option -d and with the comma ','). Then, we sort these columns alphabetically by using the "sort" command. Then, the "uniq -c" command will count the number of occurrences of each of the unique lines within the original cut command, and therefore it displays no duplicate lines, just line counts next to the lines to say how many times they occur. The "sort -nr" command will sort the lines that have been provided by the "uniq -c" command, and it will sort them from largest to smallest according to the line counts displayed. The "head -3" command will only give the first three lines of the output, which will be the top three [Month, Year] with the most number of YouTube channels created.
+
+---- Task 3 ----
 
 This is the output of the command:
 
     PID TTY          TIME CMD
-3533162 ?        00:00:01 systemd
+3533162 ?        00:00:05 systemd
 3533164 ?        00:00:00 (sd-pam)
 3533170 ?        00:00:00 sshd
 3533172 pts/40   00:00:00 bash
-3541776 pts/40   00:00:00 ps
+3577797 pts/40   00:00:00 ps
 
------ Task 4 -----
+---- Task 4 ----
 
+b) This is the output of the command:
 
     PID TTY          TIME CMD
-3533162 ?        00:00:01 systemd
+3533162 ?        00:00:06 systemd
 3533164 ?        00:00:00 (sd-pam)
 3533170 ?        00:00:00 sshd
 3533172 pts/40   00:00:00 bash
-3543035 ?        00:00:00 sshd
-3543036 pts/44   00:00:00 bash
-3543408 pts/40   00:00:00 vim
-3544497 pts/44   00:00:00 ps
+3577944 ?        00:00:00 sshd
+3577945 pts/44   00:00:00 bash
+3578421 pts/40   00:00:00 vim
+3578464 pts/44   00:00:00 ps
 
------ Task 5 -----
+I notice that the sshd and bash for both of the terminals are now listed as running processes. When it was done initially only on the first terminal, there was only one sshd and bash process, but now there are two of each since one is for the first terminal, and the other is for the second terminal. There is also the vim process listed now that is executed because of the "vi file.txt" command that we executed in the first terminal. The process ID for the vim is 378421. 
+
+d) This is the output of the command:
+
     PID TTY          TIME CMD
-3533162 ?        00:00:01 systemd
+3533162 ?        00:00:06 systemd
 3533164 ?        00:00:00 (sd-pam)
 3533170 ?        00:00:00 sshd
 3533172 pts/40   00:00:00 bash
-3543035 ?        00:00:00 sshd
-3543036 pts/44   00:00:00 bash
-3545200 pts/44   00:00:00 ps
+3577944 ?        00:00:00 sshd
+3577945 pts/44   00:00:00 bash
+3578530 pts/44   00:00:00 ps
 
------ Task 6 -----
+Now I notice that the vim process is not listed as a running process when I run the same command. This is because we quit the vi editor with the ":q!" option, which means that this process was terminated. Since both terminals are still open, there are still two sshd processes and two bash processes. 
 
-The command "ps aux" ....
+---- Task 5 ----
+This is the output of the command:
+
+root           1  0.6  0.0 178688 18496 ?        Ss    2023 842:55 /usr/lib/systemd/systemd --switched-root --system --deserialize 18
+
+The init process in Linux is systemd. The process ID for the init process is 1, and we can see this with the command executed for this question. 
+
+---- Task 6 ----
+
+The command "ps aux" provides information about the processes that are currently running on a system, such as the user name of the process owner, process ID, percentage of CPU utilization, etc. The three options "aux" mean different things for this command, so the option "a" means all processes are displayed. The option "u" means to display information about each process in a user-oriented format. The option x means to include the processes that are not associated with a terminal, and without this option, ps will typically only display the processes that are associated with the current terminal session. 
+

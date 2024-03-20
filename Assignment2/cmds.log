@@ -358,3 +358,74 @@
   358  ps aux
   359  vi Assignment2.txt 
   360  history > cmds.log
+  361  ls
+  362  git add .
+  363  git commit -m "first commit" -a
+  364  git branch
+  365  git push -u origin master
+  366  vi Assignment2.txt 
+  367  ps -p 1 >> Assignment2.txt 
+  368  vi Assignment2.txt 
+  369  ps aux | grep systemd
+  370  ps -u tanishasp24 | grep systemd
+  371  whoami
+  372  ps aux | grep systemd | head -1
+  373  ! > Assignment2.txt 
+  374  vi Assignment2.txt 
+  375  ugggghhhhhhhhhh
+  376  find /etc -type f > one.txt 2> two.txt
+  377  cat one.txt > Assignment2.txt 
+  378  cat two.txt >> Assignment2.txt 
+  379  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3
+  380  ! >> Assignment2.txt 
+  381  ps -u tanishasp24
+  382  ! >> Assignment2.txt 
+  383  vi file.txt
+  384  ps -u tanishasp24
+  385  vi Assignment2.txt 
+  386  find /etc -type f > one.txt 2> two.txt
+  387  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3
+  388  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
+  389  vi Assignment2.txt 
+  390  find /etc -type f > one.txt 2> two.txt
+  391  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 > Assignment2.txt
+  392  vi Assignment2.txt 
+  393  ps -u tanishasp24
+  394  ps -u tanishasp24 >> Assignment2.txt 
+  395  vi Assignment2.txt 
+  396  vi file.txt
+  397  ps aux | grep systemd | head -1
+  398  ps aux | grep systemd | head -1 >> Assignment2.txt 
+  399  ps aux
+  400  history > cmds.log
+  401  vi cmds.log
+
+-------------------- Assignment 2 --------------------
+
+---- Task 1 ----
+
+  402  find /etc -type f > one.txt 2> two.txt
+  403  cat one.txt
+  404  cat two.txt
+
+---- Task 2 ----
+
+  405  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 > Assignment2.txt
+
+---- Task 3 ----
+
+  406  ps -u tanishasp24
+  407  ps -u tanishasp24 >> Assignment2.txt 
+
+---- Task 4 ----
+
+  408  vi file.txt
+
+---- Task 5 ----
+  409  ps aux | grep systemd | head -1
+  410  ps aux | grep systemd | head -1 >> Assignment2.txt 
+
+---- Task 6 ----
+  411  ps aux
+  412  history > cmds.log
+
