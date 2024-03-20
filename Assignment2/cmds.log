@@ -1,0 +1,360 @@
+    1  passwd
+    2  ping 172.20.25.9
+    3  wget www.github.com
+    4  pwd
+    5  echo $SHELL
+    6  ls -ltr
+    7  cat newfilewithvi.txt
+    8  cat index.html 
+    9  man more
+   10  wget www.github.com
+   11  ls
+   12  rm index.html.1
+   13  ls
+   14  mkdir cs131
+   15  ls
+   16  cd cs131
+   17  git init
+   18  git remote add origin https://github.com/TanishaD111/cs131.git
+   19  git config --global user.email "tanishadamle111@gmail.com"
+   20  git config --global user.name "tanishadamle"
+   21  wget github.com
+   22  git add .
+   23  ls -latr
+   24  mkdir Worksheet1
+   25  cd Worksheet1
+   26  history > cmds.log
+   27  git add smds.log
+   28  git add cmds.log
+   29  git commit -m "first commit" -a
+   30  git branch
+   31  git push -u origin master
+   32  ls
+   33  cd cs131
+   34  ls
+   35  mkdir Worksheet2
+   36  ls
+   37  cd Worksheet2
+   38  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   39  ls
+   40  grep 'United States' "Global YouTube Statistics.csv" 
+   41  grep 'Music' "Global YouTube Statistics.csv" 
+   42  grep 'Music' "Global YouTube Statistics.csv" > musicCount.tx
+   43  ls
+   44  wc musicCount.txt 
+   45  rm musicCount.txt
+   46  ls
+   47  grep 'Music' "Global YouTube Statistics.csv" > musicCount.txt > counts.txt
+   48  ls
+   49  rm musicCount.txt
+   50  ls
+   51  wc counts.txt
+   52  ls
+   53  rm counts.txt
+   54  ls
+   55  wc grep 'Music' "Global YouTube Statistics.csv" 
+   56  grep 'Music' "Global YouTube Statistics.csv" > musicCount.txt
+   57  ls
+   58  wc musicCount.txt 
+   59  grep 'Music' "Global YouTube Statistics.csv" > counts.txt
+   60  wc musicCount.txt >> counts.txt
+   61  vi counts.txt
+   62  cd cs131
+   63  ls
+   64  rm worksheet2
+   65  rm Worksheet2
+   66  ls
+   67  cd Worksheet2
+   68  ls
+   69  rm counts.txt
+   70  rm "Global YouTube Statistics.csv" 
+   71  rm musicCount.txt
+   72  ls
+   73  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   74  ls
+   75  grep "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States,[^,].*" "Global YouTube Statistics.csv"
+   76  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music,[^,].*" "Global YouTube Statistics.csv"
+   77  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music,[^,].*" "Global YouTube Statistics.csv" > music.txt
+   78  wc music.txt 
+   79  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music,[^,].*" "Global YouTube Statistics.csv" > counts.txt
+   80  wc music.txt >> counts.txt
+   81  vi counts.txt
+   82  history > cmds.log
+   83  ls
+   84  git add smds.log counts.txt
+   85  git add cmds.log counts.txt
+   86  git branch
+   87  git commit -m "first commit" -a
+   88  git push -u origin master
+   89  grep "^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States.*" "Global YouTube Statistics.csv"
+   90  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music.*" "Global YouTube Statistics.csv"
+   91  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music.*" "Global YouTube Statistics.csv" > music.txt
+   92  wc music.txt 
+   93  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music.*" "Global YouTube Statistics.csv" > counts.txt
+   94  wc music.txt >> counts.txt
+   95  vi counts.txt
+   96  history > cmds.log
+   97  ls
+   98  git add cmds.log counts.txt
+   99  git commit -m "edited regex part" -a
+  100  git push -u origin master
+  101  ls
+  102  cd cs131
+  103  ls
+  104  mkdir Assignment1
+  105  ls
+  106  cd Assignment1
+  107  ls
+  108  vi Assignment1.txt
+  109  ls
+  110  echo $SHELL
+  111  echo $HOME
+  112  exit
+  113  ls
+  114  cd $HOME
+  115  ls
+  116  cd $SHELL
+  117  cd bash
+  118  cd /etc/passwd
+  119  cd $ROOT
+  120  id
+  121  cd cs131
+  122  cd Assignment1
+  123  ls
+  124  whoami
+  125  grep 'tanishasp24' /etc/passwd
+  126  id
+  127  grep /etc/passwd
+  128  mkdir myDir
+  129  chmod u-w myDir
+  130  cd myDir
+  131  ls
+  132  cd ..
+  133  ls
+  134  man chmod
+  135  grep tanishasp24 /etc/passwd
+  136  grep tanishasp24 /etc/group
+  137  id
+  138  ls -l
+  139  chmod u-w myDir/
+  140  ls
+  141  ls -l
+  142  cd myDir/
+  143  ls
+  144  ls -l
+  145  vi newFile.txt
+  146  ls
+  147  vi newFile.txt
+  148  cd ..
+  149  vi newFile.txt
+  150  mkdir myDir2
+  151  cd myDir2
+  152  mkdir myDir3
+  153  vi myFile.txt
+  154  ls
+  155  man mv
+  156  cd ..
+  157  mv myDir2/myFile.txt -T myDir3
+  158  cd myDir2
+  159  mv myFile.txt -T myDir3
+  160  ls
+  161  vi myFile.txt
+  162  ls
+  163  cd ..
+  164  ls
+  165  cd myDir2
+  166  mv myFile.txt -T myDir3
+  167  man mv
+  168  mv myFile.txt myDir3
+  169  ls
+  170  cd myDir3
+  171  ls
+  172  man free
+  173  free -m
+  174  man free
+  175  cd ..
+  176  ls /etc/
+  177  grep tanishasp24 /etc/os-release
+  178  grep /etc/os-release
+  179  cat /etc/os-release
+  180  cat /etc/passwd
+  181  ls -l /etc/os-release
+  182  cd ..
+  183  rm Assignment1
+  184  rmdir Assignment1
+  185  rmdir man
+  186  man rmdir
+  187  cd Assignment1
+  188  ls
+  189  rm newFile.txt
+  190  rm myDir
+  191  rm Assignment1
+  192  rm Assignment1.txt
+  193  ls
+  194  cd myDir
+  195  ls
+  196  cd ..
+  197  rmdir myDir
+  198  ls
+  199  cd myDir2
+  200  ls
+  201  cd myDir3
+  202  ls
+  203  rm myFile.txt
+  204  cd ..
+  205  rmdir myDir3
+  206  cd ..
+  207  rmdir myDir2
+  208  cd ..
+  209  ls
+  210  rmdir Assignment1
+  211  ls
+  212  mkdir Assignment1
+  213  rmdir Assignment1
+  214  cd ..
+  215  cd cs131
+  216  mkdirAssignment1
+  217  cd ..
+  218  cd cs131
+  219  mkdir Assignment1
+  220  cd Assignment1
+  221  vi Assignment1.txt
+  222  ls
+  223  echo $SHELL
+  224  echo $SHELL > Assignment1.txt
+  225  vi Assignment1.txt
+  226  echo $HOME
+  227  echo $HOME >> Assignment1.txt
+  228  vi Assignment1.txt
+  229  grep tanishasp24 /etc/passwd
+  230  grep tanishasp24 /etc/group
+  231  id
+  232  grep tanishasp24 /etc/passwd >> Assignment1.txt
+  233  grep tanishasp24 /etc/group >> Assignment1.txt
+  234  vi Assignment1.txt
+  235  mkdir myDir
+  236  ls
+  237  man chmod
+  238  chmod u-w myDir
+  239  cd myDir
+  240  ls
+  241  vi newFile.txt
+  242  ls
+  243  cd ..
+  244  mkdir myDir2
+  245  mkdir myDir3
+  246  ls
+  247  cd myDir2
+  248  vi myFile.txt
+  249  ls
+  250  man mv
+  251  mv myFile.txt ../myDir3
+  252  ls
+  253  cd ..
+  254  cd myDir3
+  255  ls
+  256  vi myFile.txt
+  257  ls
+  258  man free
+  259  free -m
+  260  free -m > Assignment1.txt
+  261  echo $SHELL > Assignment1.txt
+  262  echo $HOME >> Assignment1.txt
+  263  grep tanishasp24 /etc/passwd >> Assignment1.txt
+  264  grep tanishasp24 /etc/group >> Assignment1.txt
+  265  free -m >> Assignment1.txt
+  266  vi Assignment1.txt
+  267  cat /etc/os-release
+  268  cat /etc/os-release >> Assignment1.txt
+  269  vi Assignment1.txt
+  270  ls -l /etc/os-release
+  271  ls -l /etc/os-release >> Assignment1.txt
+  272  vi Assignment1.txt
+  273  cd ..
+  274  history > cmds.log
+  275  vi cmds.log
+  276  ls
+  277  git add Assignment1.txt cmds.log
+  278  git commit -m "first commit" -a
+  279  git branch
+  280  git push -u origin master
+  281  vi Assignment1.txt
+  282  free -m >> Assignment1.txt
+  283  cat /etc/os-release >> Assignment1.txt
+  284  ls -l /etc/os-release >> Assignment1.txt
+  285  vi Assignment1.txt
+  286  git add Assignment1.txt
+  287  git push -u origin master
+  288  git commit -m "fixed Assignment1.txt" -a
+  289  git push -u origin master
+  290  exit
+  291  cd cs131
+  292  ls
+  293  cd Assignment1
+  294  ls
+  295  vi smds.log
+  296  ls
+  297  rm smds.log
+  298  vi cmds.log
+  299  git commit -m "updated cmds.log" -a
+  300  git add cmds.log
+  301  git push -u origin master
+  302  vi Assignment1.txt
+  303  git add Assignment1.txt
+  304  git commit -m "updated Assignment1.txt" -a
+  305  git push -u origin master
+  306  exit
+  307  cd cs131
+  308  cd Assignment1
+  309  vi Assignment1.txt
+  310  git add Assignment1.txt
+  311  git commit -m "updated Assignment1.txt again" -a
+  312  git push -u origin master
+  313  exit
+  314  ls
+  315  cd cs131
+  316  ls
+  317  mkdir Assignment2
+  318  ls
+  319  cd Assignment2
+  320  find /etc -type f > one.txt 2> two.txt
+  321  ls
+  322  cat one.txt
+  323  cat two.txt
+  324  vi Assignment2.txt
+  325  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  326  ls
+  327  man cut
+  328  cut -d ","
+  329  cut -d ',' 'Global YouTube Statistics.csv' 
+  330  man cut
+  331  cut --help
+  332  cut -d ',' -f 20-21 'Global YouTube Statistics.csv'
+  333  man uniq
+  334  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | uniq -c | sort
+  335  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | uniq -c 
+  336  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c 
+  337  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c | head
+  338  man sort
+  339  exit
+  340  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr
+  341  cd cs131
+  342  cd Assignment2
+  343  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr
+  344  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3
+  345  cut -d ',' -f 20-21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt 
+  346  vi Assignment2.txt 
+  347  man ps
+  348  ps --help
+  349  bleh
+  350  blehhhh
+  351  ps -u
+  352  ps -u tanishasp24
+  353  ps -u tanishasp24 >> Assignment2.txt 
+  354  vi Assignment2.txt 
+  355  vi file.txt
+  356  ps 1
+  357  ps -p 1
+  358  ps aux
+  359  vi Assignment2.txt 
+  360  history > cmds.log

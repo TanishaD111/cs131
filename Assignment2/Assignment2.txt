@@ -1,0 +1,56 @@
+----- Task 1 -----
+
+a) With the "find /etc -type f > one.txt 2> two.txt" command, we will find all regular files only (not directories) within the /etc directory and all of its subdirectories. The standard output is redirected to the one.txt file, which contains all of the paths of the regular files that are found by the find command. The standard error is redirected to the two.txt file, which is where any error or warning that is given by the find command is printed. 
+
+b) The file "one.txt" contains all of the paths of the regular files starting with "/etc/" that are found by the find command. The file "two.txt" gives the command that was unsuccessful, the file that the error or warning occurred on, and the reason why the command was unsuccessful, such as "permission denied."
+
+----- Task 2 -----
+
+These were the first three lines of the output of the command: 
+
+     15 2006,Mar
+     13 2014,Jul
+     12 2014,Aug
+
+Therefore, the top three [Month, Year] with the most number of YouTube channels created were: 
+  1. March, 2006 with 15 channels
+  2. July, 2014 with 13 channels
+  3. August, 2014 with 12 channels
+
+----- Task 3 -----
+
+This is the output of the command:
+
+    PID TTY          TIME CMD
+3533162 ?        00:00:01 systemd
+3533164 ?        00:00:00 (sd-pam)
+3533170 ?        00:00:00 sshd
+3533172 pts/40   00:00:00 bash
+3541776 pts/40   00:00:00 ps
+
+----- Task 4 -----
+
+
+    PID TTY          TIME CMD
+3533162 ?        00:00:01 systemd
+3533164 ?        00:00:00 (sd-pam)
+3533170 ?        00:00:00 sshd
+3533172 pts/40   00:00:00 bash
+3543035 ?        00:00:00 sshd
+3543036 pts/44   00:00:00 bash
+3543408 pts/40   00:00:00 vim
+3544497 pts/44   00:00:00 ps
+
+----- Task 5 -----
+    PID TTY          TIME CMD
+3533162 ?        00:00:01 systemd
+3533164 ?        00:00:00 (sd-pam)
+3533170 ?        00:00:00 sshd
+3533172 pts/40   00:00:00 bash
+3543035 ?        00:00:00 sshd
+3543036 pts/44   00:00:00 bash
+3545200 pts/44   00:00:00 ps
+
+----- Task 6 -----
+
+The command "ps aux" ....
