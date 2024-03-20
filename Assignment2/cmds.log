@@ -420,6 +420,10 @@
 ---- Task 4 ----
 
   408  vi file.txt
+   --> in second terminal: 
+       ps -u tanishasp24 >> Assignment2.txt
+       (after ":q!" in terminal one)
+       ps -u tanishasp24 >> Assignment2.txt 
 
 ---- Task 5 ----
   409  ps aux | grep systemd | head -1
