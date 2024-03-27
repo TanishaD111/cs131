@@ -1,0 +1,23 @@
+---- Task 1 ----
+
+DaFuq!?Boom!,United States,9200000
+--> Highest monthly earner from the United States is DaFuq!?Boom!
+
+Woody & Kleiny,United Kingdom,2000000
+--> Highest monthly earner from the United Kingdom is Woody & Kleiny
+
+T-Series,India,9000000
+--> Highest monthly earner from India is T-Series
+
+---- Task 2 ----
+
+WWE,96000000,Sports
+--> Highest subscribed channel from Sports is WWE
+
+Cocomelon - Nursery Rhymes,162000000,Education
+--> Highest subscribed channel from Education is Cocomelon - Nursery Rhymes
+
+MrBeast,166000000,Entertainment
+--> Highest subscribed channel from Entertainment is MrBeast
+
+
