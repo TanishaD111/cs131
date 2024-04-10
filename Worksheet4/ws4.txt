@@ -1,0 +1,805 @@
+Script started on 2024-04-10 16:52:47-04:00
+bash-4.4$ ls
+ws4.txt
+bash-4.4$ vi .bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H".bashrc" [New File][2;1H[94m~                                                                                                                     [3;1H~                                                                                                                     [4;1H~                                                                                                                     [5;1H~                                                                                                                     [6;1H~                                                                                                                     [7;1H~                                                                                                                     [8;1H~                                                                                                                     [9;1H~                                                                                                                     [10;1H~                                                                                                                     [11;1H~                                                                                                                     [12;1H~                                                                                                                     [13;1H~                                                                                                                     [14;1H~                                                                                                                     [15;1H~                                                                                                                     [16;1H~                                                                                                                     [17;1H~                                                                                                                     [18;1H~                                                                                                                     [19;1H~                                                                                                                     [20;1H~                                                                                                                     [21;1H~                                                                                                                     [22;1H~                                                                                                                     [23;1H~                                                                                                                     [24;1H~                                                                                                                     [25;1H~                                                                                                                     [26;1H~                                                                                                                     [27;1H~                                                                                                                     [28;1H~                                                                                                                     [29;1H~                                                                                                                     [30;1H~                                                                                                                     [31;1H~                                                                                                                     [32;1H~                                                                                                                     [33;1H~                                                                                                                     [1;1H[?25h[?25l[m[34;1H[K[34;1H:[?2004h[?25hq[?25l[?2004l[34;1H[K[34;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ ls
+ws4.txt
+bash-4.4$ cat .bashrc
+cat: .bashrc: No such file or directory
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1  Assignment2  index.html  Worksheet1  Worksheet2  Worksheet3  Worksheet4
+bash-4.4$ cat .bashrc
+cat: .bashrc: No such file or directory
+bash-4.4$ cd ..
+bash-4.4$ cat[K[K[Kcd ..at .bashrc
+cat: .bashrc: No such file or directory
+bash-4.4$ ls
+cs131  index.html
+bash-4.4$ cd ..
+bash-4.4$ ls
+aaronf23       ashishf23    brendanf23	hardiksp24  jewonf23	 madhavsp24   pratiksp24   sangsp24	tylermsp24
+aarushisp24    ashishk	    davidsp24	haroldf23   jimmysp24	 manassp24    rahulf23	   saniaf23	tylersp24
+abdulwahabf23  atishaysp24  divijf23	henrisp24   jonathanf23  matthewsp24  rickysp24    shervanf23	xiaosp24
+acesp24        balasaisp24  diyasp24	henrysp24   josephf23	 maximf23     rikkif23	   stevenf23	xuebosp24
+akashsp24      benjaminf23  edisonsp24	hof23	    junf23	 maysp24      robertosp24  sunidhisp24	yelinsp24
+albertsp24     bennysp24    farihasp24	ishaf23     jyotika	 megansp24    rogeliof23   taliasp24	zipengf23
+amreenf23      bhavdeepf23  gabrielf23	jadonsp24   kevinsp24	 nathanf23    ryansp24	   tanishasp24
+anasf23        brandonf23   georgesp24	jamesf23    khushisp24	 nhatsp24     samuelf23    thif23
+ashish	       brandonsp24  hamzaf23	jessesp24   kobef23	 nicholasf23  sandrasp24   tienf23
+bash-4.4$ lscd ..[3Plscat .bashrc
+cat: .bashrc: No such file or directory
+bash-4.4$ cd tanishasp24
+bash-4.4$ ls
+cs131  index.html
+bash-4.4$ echo $HOME
+/mnt/scratch/FA23_CS131_Ashish/tanishasp24
+bash-4.4$ c[Kcd ..
+bash-4.4$ cd ..echo $HOME
+/mnt/scratch/FA23_CS131_Ashish/tanishasp24
+bash-4.4$ cd tanishasp24
+bash-4.4$ cd tanishasp24[C[C[C[C[C[C[C[C[C[C[4Pecho $HOME
+/mnt/scratch/FA23_CS131_Ashish/tanishasp24
+bash-4.4$ cat .bashrc
+cat: .bashrc: No such file or directory
+bash-4.4$ cat `[K~/.bashrc
+cat: /mnt/scratch/FA23_CS131_Ashish/tanishasp24/.bashrc: No such file or directory
+bash-4.4$ cat etc/.[Kbashrc
+cat: etc/bashrc: No such file or directory
+bash-4.4$ ls -l /etc/
+total 1352
+-rw-r--r--.  1 root root       16 Jan  5  2023 adjtime
+-rw-r--r--.  1 root root     1529 Apr 15  2020 aliases
+drwxr-xr-x.  2 root root     4096 Aug  1  2023 alternatives
+-rw-r--r--.  1 root root      541 Sep 30  2021 anacrontab
+drwxr-xr-x   4 root root     4096 Aug  1  2023 asciidoc
+-rw-r--r--.  1 root root        1 Aug 12  2018 at.deny
+drwxr-x---.  4 root root      100 Jan  5  2023 audit
+drwxr-xr-x.  3 root root      228 Jan  5  2023 authselect
+drwxr-xr-x.  2 root root      135 Jan  5  2023 bash_completion.d
+-rw-r--r--.  1 root root     3019 Apr 15  2020 bashrc
+-rw-r--r--.  1 root root      545 Jan  5  2023 bindresvport.blacklist
+-rw-r--r--.  1 root root      535 Jan  5  2023 bindresvport.blacklist.rsct.save
+drwxr-xr-x.  2 root root       26 Jan  5  2023 binfmt.d
+drwxr-xr-x.  2 root root        6 Jul 27  2021 chkconfig.d
+-rw-r--r--.  1 root root     1083 Jun 15  2021 chrony.conf
+-rw-r-----.  1 root chrony    540 May 12  2021 chrony.keys
+drwxr-xr-x.  2 root root       26 Jun  3  2022 cifs-utils
+drwxr-xr-x.  4 root root       82 Mar 30  2023 cloud
+drwxr-xr-x.  2 root root        6 Jan  5  2023 cni
+drwxr-xr-x.  4 root root       42 Sep 23  2022 cockpit
+drwxr-xr-x.  6 root root      139 Jan  5  2023 containers
+drwxr-xr-x.  2 root root       39 Jan  5  2023 cron.d
+drwxr-xr-x.  2 root root       44 Jan  5  2023 cron.daily
+-rw-r--r--.  1 root root        0 Sep 30  2021 cron.deny
+drwxr-xr-x.  2 root root       22 Jan  5  2023 cron.hourly
+drwxr-xr-x.  2 root root        6 Jan  8  2021 cron.monthly
+-rw-r--r--.  1 root root      451 Jan  8  2021 crontab
+drwxr-xr-x.  2 root root        6 Jan  8  2021 cron.weekly
+drwxr-xr-x.  6 root root       81 Jan  5  2023 crypto-policies
+-rw-------.  1 root root        0 Jan  5  2023 crypttab
+-rw-r--r--.  1 root root     1629 Apr 15  2020 csh.cshrc
+-rw-r--r--.  1 root root     1078 Apr 15  2020 csh.login
+-rw-rw-r--   1 root root      129 May  4  2023 ct_node_id
+drwxr-xr-x.  4 root root       78 Jun 16  2022 dbus-1
+drwxr-xr-x.  3 root root       16 Jan  5  2023 dconf
+drwxr-xr-x.  2 root root       33 Jan  5  2023 default
+drwxr-xr-x.  2 root root       40 Jan  5  2023 depmod.d
+drwxr-xr-x.  4 root root       53 Jan  5  2023 dhcp
+-rw-r--r--.  1 root root     4536 Jul  9  2021 DIR_COLORS
+-rw-r--r--.  1 root root     5214 Jul  9  2021 DIR_COLORS.256color
+-rw-r--r--.  1 root root     4618 Jul  9  2021 DIR_COLORS.lightbgcolor
+drwxr-xr-x.  8 root root      128 Jan  5  2023 dnf
+-rw-r--r--.  1 root root      117 May 23  2022 dracut.conf
+drwxr-xr-x.  2 root root        6 May 23  2022 dracut.conf.d
+drwxr-xr-x   3 root root       37 Aug  1  2023 egl
+-rw-r--r--.  1 root root        0 Apr 15  2020 environment
+-rw-r--r--.  1 root root     1362 Sep 10  2018 ethertypes
+-rw-r--r--.  1 root root        0 Sep 10  2018 exports
+lrwxrwxrwx.  1 root root       56 Jul 12  2021 favicon.png -> /usr/share/icons/hicolor/16x16/apps/fedora-logo-icon.png
+-rw-r--r--.  1 root root       66 Sep 10  2018 filesystems
+drwxr-x---.  8 root root      149 Jan  5  2023 firewalld
+drwxr-xr-x.  3 root root       38 Jan  5  2023 fonts
+-rw-r--r--.  1 root root       20 Jan 13  2021 fprintd.conf
+-rw-r--r--   1 root root      639 May  4  2023 fstab
+-rw-r--r--.  1 root root       38 Feb 24  2022 fuse.conf
+drwxr-xr-x.  2 root root       25 Apr 26  2022 gcrypt
+-rw-r--r--   1 root root      265 Dec  8  2021 gdbinit
+drwxr-xr-x   2 root root        6 Dec  8  2021 gdbinit.d
+drwxr-xr-x   3 root root       26 Aug  1  2023 glvnd
+drwxr-xr-x.  2 root root        6 Aug  8  2022 gnupg
+-rw-r--r--.  1 root root       94 Aug 12  2018 GREP_COLORS
+drwxr-xr-x.  4 root root       40 Jan  5  2023 groff
+-rw-r--r--   1 root root     6385 Feb 25 15:29 group
+-rw-r--r--.  1 root root     6377 Feb 25 15:29 group-
+lrwxrwxrwx.  1 root root       22 Jun  3  2022 grub2.cfg -> ../boot/grub2/grub.cfg
+drwx------.  2 root root     4096 Jan  5  2023 grub.d
+----------   1 root root     5405 Feb 25 15:29 gshadow
+----------.  1 root root     5397 Feb 25 15:29 gshadow-
+drwxr-xr-x.  3 root root       20 Jan  5  2023 gss
+-rw-r--r--.  1 root root        9 Sep 10  2018 host.conf
+-rw-r--r--   1 root root       24 May  4  2023 hostname
+-rw-r--r--.  1 root root      158 Sep 10  2018 hosts
+-rw-r--r--.  1 root root     4849 Mar 12  2022 idmapd.conf
+lrwxrwxrwx.  1 root root       11 Jul 27  2021 init.d -> rc.d/init.d
+-rw-r--r--.  1 root root      490 Sep 21  2022 inittab
+-rw-r--r--.  1 root root      942 Sep 10  2018 inputrc
+drwxr-xr-x.  2 root root      225 Jan  5  2023 insights-client
+drwxr-xr-x.  2 root root      159 Jul 11  2022 iproute2
+drwxr-xr-x.  2 root root       52 Jan  5  2023 iscsi
+-rw-r--r--.  1 root root       23 Apr  6  2022 issue
+drwxr-xr-x.  2 root root       27 Jan  5  2023 issue.d
+-rw-r--r--.  1 root root       22 Apr  6  2022 issue.net
+drwxr-xr-x   4 root root       48 Aug  1  2023 java
+drwxr-xr-x   2 root root        6 Dec 13  2018 jvm
+drwxr-xr-x   2 root root        6 Dec 13  2018 jvm-commmon
+drwxr-xr-x.  4 root root       33 Jan  5  2023 kdump
+-rw-r--r--.  1 root root     8550 Jan  5  2023 kdump.conf
+drwxr-xr-x.  3 root root       23 Sep 21  2022 kernel
+drwxr-xr-x.  2 root root        6 Jun 16  2021 keyutils
+-rw-r--r--.  1 root root      812 Aug 25  2021 krb5.conf
+drwxr-xr-x.  2 root root       83 Jan  5  2023 krb5.conf.d
+-rw-r--r--.  1 root root     1128 Jul 21  2022 kshrc
+-rw-r--r--   1 root root    31003 Aug  1  2023 ld.so.cache
+-rw-r--r--.  1 root root       28 Aug  1  2018 ld.so.conf
+drwxr-xr-x.  2 root root      129 Aug  1  2023 ld.so.conf.d
+-rw-r-----.  1 root root      191 Jan 23  2022 libaudit.conf
+drwxr-xr-x.  3 root root       20 Jan  5  2023 libblockdev
+drwxr-xr-x.  2 root root      246 Jan  5  2023 libibverbs.d
+drwxr-xr-x.  2 root root       35 Jan  5  2023 libnl
+drwxr-xr-x   2 root root        6 Dec  4  2018 libpaper.d
+drwxr-xr-x.  6 root root       70 Jan  5  2023 libreport
+drwxr-xr-x.  2 root root       62 Jan  5  2023 libssh
+-rw-r--r--.  1 root root     2391 Jul 23  2015 libuser.conf
+-rw-r--r--.  1 root root       17 May  4  2023 locale.conf
+lrwxrwxrwx.  1 root root       38 Jan  5  2023 localtime -> ../usr/share/zoneinfo/America/New_York
+-rw-r--r--.  1 root root     2512 Dec  9  2021 login.defs
+-rw-r--r--.  1 root root      438 Feb 19  2018 logrotate.conf
+drwxr-xr-x.  2 root root      219 Sep 12  2022 logrotate.d
+drwxr-xr-x.  3 root root       43 Jan  5  2023 lsm
+drwxr-xr-x.  2 root root       85 Jan  5  2023 lsvpd
+drwxr-xr-x.  6 root root      100 Jul 12  2022 lvm
+-r--r--r--   1 root root       33 May  4  2023 machine-id
+-rw-r--r--.  1 root root      111 May  4  2021 magic
+-rw-r--r--.  1 root root      272 May 11  2017 mailcap
+-rw-r--r--.  1 root root     5122 Jan 27  2022 makedumpfile.conf.sample
+-rw-r--r--.  1 root root     5165 Jun 24  2021 man_db.conf
+-rw-r--r--.  1 root root    60352 May 11  2017 mime.types
+-rw-r--r--.  1 root root     1108 Feb 17  2022 mke2fs.conf
+drwxr-xr-x.  2 root root       54 Jan  5  2023 modprobe.d
+drwxr-xr-x.  2 root root        6 Sep 21  2022 modules-load.d
+-rw-r--r--.  1 root root        0 Sep 10  2018 motd
+drwxr-xr-x.  2 root root       44 Jan  5  2023 motd.d
+lrwxrwxrwx.  1 root root       19 Jan  5  2023 mtab -> ../proc/self/mounts
+drwxr-xr-x.  2 root root       35 May  4  2023 multipath
+-rw-rw-r--.  1 root root       75 Jan  5  2023 multipath.conf
+-rw-r--r--.  1 root root     9450 Aug 12  2018 nanorc
+-rw-r--r--.  1 root root      767 Dec  2  2021 netconfig
+drwxr-xr-x.  7 root root      134 Sep 29  2022 NetworkManager
+-rw-r--r--.  1 root root       58 Sep 10  2018 networks
+drwx------.  3 root root       66 Jan  5  2023 nftables
+lrwxrwxrwx.  1 root root       29 Jan  5  2023 nsswitch.conf -> /etc/authselect/nsswitch.conf
+-rw-r--r--.  1 root root     2197 Mar 14  2022 nsswitch.conf.bak
+drwxr-xr-x.  2 root root       35 Jan  5  2023 nvme
+drwxr-xr-x.  2 root root       93 Jan  5  2023 objrepos
+drwxr-xr-x.  2 root root        6 Dec 15  2020 oddjob
+-rw-r--r--.  1 root root     4922 Dec 15  2020 oddjobd.conf
+drwxr-xr-x.  2 root root       70 Jan  5  2023 oddjobd.conf.d
+drwxr-xr-x.  3 root root       36 Jan  5  2023 openldap
+drwxr-xr-x.  2 root root        6 Jun 21  2021 opt
+lrwxrwxrwx.  1 root root       22 Apr  6  2022 os-release -> ..//usr/lib/os-release
+drwxr-xr-x.  2 root root       48 Jan  5  2023 PackageKit
+drwxr-xr-x.  2 root root     4096 Aug  2  2022 pam.d
+-rw-r--r--   1 root root       68 Dec  4  2018 papersize
+-rw-r--r--   1 root root    15987 Feb 25 15:29 passwd
+-rw-r--r--.  1 root root    15961 Feb 25 15:29 passwd-
+-rw-r--r--.  1 root root     2872 Aug 12  2018 pinforc
+drwxr-xr-x.  3 root root       21 Jan  5  2023 pkcs11
+drwxr-xr-x. 14 root root      193 Aug 18  2023 pki
+drwxr-xr-x.  2 root root       28 Jan  5  2023 plymouth
+drwxr-xr-x.  5 root root       52 Jan  5  2023 pm
+drwxr-xr-x.  5 root root       72 Jan  5  2023 polkit-1
+drwxr-xr-x.  2 root root        6 Jan  7  2021 popt.d
+drwxr-xr-x.  3 root root       48 Jan  5  2023 ppc64-diag
+-rw-r--r--.  1 root root      233 Sep 10  2018 printcap
+-rw-r--r--.  1 root root     2123 Apr 15  2020 profile
+drwxr-xr-x.  2 root root     4096 Jan  5  2023 profile.d
+-rw-r--r--.  1 root root     6568 Sep 10  2018 protocols
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc0.d -> rc.d/rc0.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc1.d -> rc.d/rc1.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc2.d -> rc.d/rc2.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc3.d -> rc.d/rc3.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc4.d -> rc.d/rc4.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc5.d -> rc.d/rc5.d
+lrwxrwxrwx.  1 root root       10 Aug 15  2022 rc6.d -> rc.d/rc6.d
+drwxr-xr-x. 10 root root      127 Sep 21  2022 rc.d
+lrwxrwxrwx.  1 root root       13 Sep 21  2022 rc.local -> rc.d/rc.local
+-rwxr-xr-x.  1 root root    10106 May 17  2021 rc.powerfail
+-rw-r--r--.  1 root root       45 Apr  6  2022 redhat-release
+-rw-r--r--.  1 root root     1787 Jun 16  2021 request-key.conf
+drwxr-xr-x.  2 root root        6 Jun 16  2021 request-key.d
+-rw-r--r--   1 root root      149 May  4  2023 resolv.conf
+drwxr-xr-x.  3 root root       40 Jan  5  2023 rhc
+drwxr-xr-x.  6 root root      132 Jan  5  2023 rhsm
+-rw-r--r--.  1 root root     1634 Aug  1  2018 rpc
+drwxr-xr-x.  2 root root       25 Sep 14  2022 rpm
+-rw-r--r--.  1 root root     3186 May 16  2022 rsyslog.conf
+drwxr-xr-x.  2 root root       52 May 16  2022 rsyslog.d
+drwxr-xr-x.  2 root root       35 Jun  3  2022 rwtab.d
+drwxr-xr-x.  2 root root       61 Jan  5  2023 samba
+drwxr-xr-x.  2 root root        6 Feb 17  2022 sasl2
+drwxr-xr-x.  7 root root     4096 Aug  2  2022 security
+drwxr-xr-x.  3 root root       57 Mar 30  2023 selinux
+-rw-r--r--.  1 root root   692252 Apr 15  2020 services
+-rw-r--r--.  1 root root      216 Feb 23  2022 sestatus.conf
+drwxr-xr-x.  2 root root       33 Jan  5  2023 setroubleshoot
+drwxr-xr-x   3 root root     4096 Aug  1  2023 sgml
+----------   1 root root    28796 Mar 11 12:22 shadow
+----------.  1 root root    28662 Feb 25 15:25 shadow-
+-rw-r--r--   1 root root      114 Aug  1  2023 shells
+drwxr-xr-x.  2 root root       76 Jan  5  2023 skel
+drwxr-xr-x.  3 root root       74 Jan  5  2023 smartmontools
+drwxr-xr-x.  6 root root       86 Jan  5  2023 sos
+drwxr-xr-x.  3 root root     4096 May  4  2023 ssh
+drwxr-xr-x.  2 root root       19 Jan  5  2023 ssl
+drwx------.  4 sssd sssd       31 Jun  3  2022 sssd
+-rw-r--r--   1 root root     5146 Feb 25 15:29 subgid
+-rw-r--r--.  1 root root     5123 Feb 25 15:25 subgid-
+-rw-r--r--   1 root root     5146 Feb 25 15:29 subuid
+-rw-r--r--.  1 root root     5123 Feb 25 15:25 subuid-
+-rw-r-----.  1 root root     1786 Dec  7  2021 sudo.conf
+-r--r-----   1 root root     4383 Feb 10 21:22 sudoers
+drwxr-x---.  2 root root       33 Jan  5  2023 sudoers.d
+-rw-r-----.  1 root root     3181 Dec  7  2021 sudo-ldap.conf
+drwxr-xr-x.  3 root root       24 Jan  5  2023 swid
+drwxr-xr-x.  5 root root     4096 Jan  5  2023 sysconfig
+-rw-r--r--   1 root root      481 Mar 30  2023 sysctl.conf
+drwxr-xr-x.  2 root root       28 Sep 21  2022 sysctl.d
+drwxr-xr-x.  5 root root      172 Jan  5  2023 systemd
+lrwxrwxrwx.  1 root root       14 Apr  6  2022 system-release -> redhat-release
+-rw-r--r--.  1 root root       41 Apr  6  2022 system-release-cpe
+-rw-r-----.  1 root tss      7046 Nov  6  2020 tcsd.conf
+drwxr-xr-x.  2 root root        6 May 18  2021 terminfo
+drwxr-xr-x.  2 root root        6 Sep 21  2022 tmpfiles.d
+-rw-r--r--.  1 root root      375 Sep 22  2022 trusted-key.key
+drwxr-xr-x.  3 root root      136 Jan  5  2023 tuned
+drwxr-xr-x.  4 root root       68 Aug  1  2023 udev
+drwxr-xr-x.  2 root root       60 Jan  5  2023 udisks2
+drwxr-xr-x.  2 root root       45 Jan  5  2023 unbound
+-rw-r--r--.  1 root root      587 Aug 12  2018 updatedb.conf
+-rw-r--r--.  1 root root     1523 Aug 12  2018 usb_modeswitch.conf
+-rw-r--r--.  1 root root       28 Jan  5  2023 vconsole.conf
+-rw-r--r--.  1 root root     1982 Jun 14  2022 vimrc
+-rw-r--r--.  1 root root     1204 Jun 14  2022 virc
+-rw-r--r--.  1 root root     4925 Apr  3  2020 wgetrc
+drwxr-xr-x.  6 root root       70 Jan  5  2023 X11
+-rw-r--r--.  1 root root      642 Dec  9  2016 xattr.conf
+drwxr-xr-x.  6 root root       72 Aug  1  2023 xdg
+drwxr-xr-x.  2 root root        6 Jun 21  2021 xinetd.d
+drwxr-xr-x   2 root root       21 Aug  1  2023 xml
+drwxr-xr-x.  2 root root       57 Jan  5  2023 yum
+lrwxrwxrwx.  1 root root       12 Mar 18  2022 yum.conf -> dnf/dnf.conf
+drwxr-xr-x.  2 root root       25 Aug 18  2023 yum.repos.d
+bash-4.4$ ls -l /etc/bashrc
+-rw-r--r--. 1 root root 3019 Apr 15  2020 /etc/bashrc
+bash-4.4$ 
+bash-4.4$ vi .bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H".bashrc" [New File][2;1H[94m~                                                                                                                     [3;1H~                                                                                                                     [4;1H~                                                                                                                     [5;1H~                                                                                                                     [6;1H~                                                                                                                     [7;1H~                                                                                                                     [8;1H~                                                                                                                     [9;1H~                                                                                                                     [10;1H~                                                                                                                     [11;1H~                                                                                                                     [12;1H~                                                                                                                     [13;1H~                                                                                                                     [14;1H~                                                                                                                     [15;1H~                                                                                                                     [16;1H~                                                                                                                     [17;1H~                                                                                                                     [18;1H~                                                                                                                     [19;1H~                                                                                                                     [20;1H~                                                                                                                     [21;1H~                                                                                                                     [22;1H~                                                                                                                     [23;1H~                                                                                                                     [24;1H~                                                                                                                     [25;1H~                                                                                                                     [26;1H~                                                                                                                     [27;1H~                                                                                                                     [28;1H~                                                                                                                     [29;1H~                                                                                                                     [30;1H~                                                                                                                     [31;1H~                                                                                                                     [32;1H~                                                                                                                     [33;1H~                                                                                                                     [1;1H[?25h[?25l[m[34;1H[K[34;1H:[?2004h[?25hq[?25l[?2004l[34;1H[K[34;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ ls
+cs131  index.html
+bash-4.4$ vi /etc/bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H"/etc/bashrc" [readonly] 98L, 3019C[1;1H# /etc/bashrc
+
+# System wide functions and aliases
+# Environment stuff goes in /etc/profile
+
+# It's NOT a good idea to change this file unless you know what you
+# are doing. It's much better to create a custom.sh shell script in
+# /etc/profile.d/ to make custom changes to your environment, as this
+# will prevent the need for merging in future updates.
+
+# Prevent doublesourcing
+if [ -z "$BASHRCSOURCED" ]; then
+  BASHRCSOURCED="Y"
+
+  # are we an interactive shell?
+  if [ "$PS1" ]; then
+    if [ -z "$PROMPT_COMMAND" ]; then[18;7Hcase $TERM in[19;7Hxterm*|vte*)[20;9Hif [ -e /etc/sysconfig/bash-prompt-xterm ]; then[21;13HPROMPT_COMMAND=/etc/sysconfig/bash-prompt-xterm[22;9Helif [ "${VTE_VERSION:-0}" -ge 3405 ]; then[23;13HPROMPT_COMMAND="__vte_prompt_command"[24;9Helse[25;13HPROMPT_COMMAND='printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'[26;9Hfi[27;9H;;[28;7Hscreen*)[29;9Hif [ -e /etc/sysconfig/bash-prompt-screen ]; then[30;13HPROMPT_COMMAND=/etc/sysconfig/bash-prompt-screen[31;9Helse[32;13HPROMPT_COMMAND='printf "\033k%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'[33;9Hfi[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;33r[33;1H
+[1;34r[33;9H;;[34;1H[K[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;7H*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9H[ -e /etc/sysconfig/bash-prompt-default ] && PROMPT_COMMAND=/etc/sysconfig/bash-prompt-default[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9H;;[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;7Hesac[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Turn on parallel history[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hshopt -s histappend[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hhistory -a[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Turn on checkwinsize[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hshopt -s checkwinsize[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H[ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \W]\\$ "[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# You might want to have e.g. tty in prompt (e.g. more virtual machines)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# and console windows[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# If you want to do so, just add e.g.[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# if [ "$PS1" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H#   PS1="[\u@\h:\l \W]\\$ "[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# fi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# to your custom modification shell script in /etc/profile.d/ directory[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hif ! shopt -q login_shell ; then # We're not a login shell[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Need to redefine pathmunge, it gets undefined at the end of /etc/profile[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hpathmunge () {[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hcase ":${PATH}:" in[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13H*:"$1":*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H;;[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13H*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Hif [ "$2" = "after" ] ; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;21HPATH=$PATH:$1[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;21HPATH=$1:$PATH[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hesac[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H}[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# By default, we want umask to get set. This sets it for non-login shell.[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Current threshold for system reserved uid/gids is 200[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# You could check uidgid reservation validity in[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# /usr/share/doc/setup-*/uidgid file[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hif [ $UID -gt 199 ] && [ "`/usr/bin/id -gn`" = "`/usr/bin/id -un`" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;8Humask 002[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;8Humask 022[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5HSHELL=/bin/bash[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Only display echos from profile.d scripts if we are no login shell[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# and interactive - otherwise just process them to set envvars[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfor i in /etc/profile.d/*.sh; do[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hif [ -r "$i" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Hif [ "$PS1" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H. "$i"[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H. "$i" >/dev/null[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hdone[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hunset i[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hunset -f pathmunge[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;1Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;1H# vim:ts=4:sw=4[28;1H[?25h
+
+
+
+
+[32;1H[31;1H[30;1H[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[?25l[1;33r[1;1H[L[1;34r[1;21HPATH=$1:$PATH[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;17Helse[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;21HPATH=$PATH:$1[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;17Hif [ "$2" = "after" ] ; then[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;13H*)[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;17H;;[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;13H*:"$1":*)[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9Hcase ":${PATH}:" in[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5Hpathmunge () {[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5H# Need to redefine pathmunge, it gets undefined at the end of /etc/profile[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;3Hif ! shopt -q login_shell ; then # We're not a login shell[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;3Hfi[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5H# to your custom modification shell script in /etc/profile.d/ directory[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5H# fi[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5H#   PS1="[\u@\h:\l \W]\\$ "[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5H# if [ "$PS1" ]; then[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5H# If you want to do so, just add e.g.[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5H# and console windows[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5H# You might want to have e.g. tty in prompt (e.g. more virtual machines)[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5H[ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \W]\\$ "[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5Hshopt -s checkwinsize[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5H# Turn on checkwinsize[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5Hhistory -a[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5Hshopt -s histappend[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5H# Turn on parallel history[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5Hfi[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;7Hesac[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9H;;[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9H[ -e /etc/sysconfig/bash-prompt-default ] && PROMPT_COMMAND=/etc/sysconfig/bash-prompt-default[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;7H*)[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9H;;[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9Hfi[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;13HPROMPT_COMMAND='printf "\033k%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9Helse[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;13HPROMPT_COMMAND=/etc/sysconfig/bash-prompt-screen[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9Hif [ -e /etc/sysconfig/bash-prompt-screen ]; then[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;7Hscreen*)[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9H;;[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9Hfi[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;13HPROMPT_COMMAND='printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9Helse[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;13HPROMPT_COMMAND="__vte_prompt_command"[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9Helif [ "${VTE_VERSION:-0}" -ge 3405 ]; then[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;13HPROMPT_COMMAND=/etc/sysconfig/bash-prompt-xterm[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;9Hif [ -e /etc/sysconfig/bash-prompt-xterm ]; then[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;7Hxterm*|vte*)[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;7Hcase $TERM in[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;5Hif [ -z "$PROMPT_COMMAND" ]; then[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;3Hif [ "$PS1" ]; then[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;3H# are we an interactive shell?[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;3HBASHRCSOURCED="Y"[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;1Hif [ -z "$BASHRCSOURCED" ]; then[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;1H# Prevent doublesourcing[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;1H# will prevent the need for merging in future updates.[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;1H# /etc/profile.d/ to make custom changes to your environment, as this[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;1H# are doing. It's much better to create a custom.sh shell script in[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;1H# It's NOT a good idea to change this file unless you know what you[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;1H# Environment stuff goes in /etc/profile[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;1H# System wide functions and aliases[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[6;1H[?25h[?25l[1;33r[1;1H[L[1;34r[1;1H# /etc/bashrc[6;1H[?25h[5;1H[4;1H[3;1H[2;1H[1;1H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;33r[33;1H
+[1;34r[33;9H;;[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;7H*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9H[ -e /etc/sysconfig/bash-prompt-default ] && PROMPT_COMMAND=/etc/sysconfig/bash-prompt-default[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9H;;[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;7Hesac[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Turn on parallel history[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hshopt -s histappend[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hhistory -a[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Turn on checkwinsize[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hshopt -s checkwinsize[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H[ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \W]\\$ "[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# You might want to have e.g. tty in prompt (e.g. more virtual machines)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# and console windows[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# If you want to do so, just add e.g.[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# if [ "$PS1" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H#   PS1="[\u@\h:\l \W]\\$ "[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# fi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# to your custom modification shell script in /etc/profile.d/ directory[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hif ! shopt -q login_shell ; then # We're not a login shell[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Need to redefine pathmunge, it gets undefined at the end of /etc/profile[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hpathmunge () {[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hcase ":${PATH}:" in[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13H*:"$1":*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H;;[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13H*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Hif [ "$2" = "after" ] ; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;21HPATH=$PATH:$1[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;21HPATH=$1:$PATH[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hesac[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H}[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# By default, we want umask to get set. This sets it for non-login shell.[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Current threshold for system reserved uid/gids is 200[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# You could check uidgid reservation validity in[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# /usr/share/doc/setup-*/uidgid file[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hif [ $UID -gt 199 ] && [ "`/usr/bin/id -gn`" = "`/usr/bin/id -un`" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;8Humask 002[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;8Humask 022[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5HSHELL=/bin/bash[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Only display echos from profile.d scripts if we are no login shell[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# and interactive - otherwise just process them to set envvars[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfor i in /etc/profile.d/*.sh; do[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hif [ -r "$i" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Hif [ "$PS1" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H. "$i"[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H. "$i" >/dev/null[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hdone[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hunset i[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hunset -f pathmunge[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;1Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;1H# vim:ts=4:sw=4[28;1H[?25h
+
+
+
+
+[?25l
+:[?2004h[?25hq[?25l[?2004l[34;1H[K[34;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi /etc/bashrc[C[C[C[C[C[C[C[C[C[C[Kvi ~/ba[K[K.bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H"~/.bashrc" [New File][2;1H[94m~                                                                                                                     [3;1H~                                                                                                                     [4;1H~                                                                                                                     [5;1H~                                                                                                                     [6;1H~                                                                                                                     [7;1H~                                                                                                                     [8;1H~                                                                                                                     [9;1H~                                                                                                                     [10;1H~                                                                                                                     [11;1H~                                                                                                                     [12;1H~                                                                                                                     [13;1H~                                                                                                                     [14;1H~                                                                                                                     [15;1H~                                                                                                                     [16;1H~                                                                                                                     [17;1H~                                                                                                                     [18;1H~                                                                                                                     [19;1H~                                                                                                                     [20;1H~                                                                                                                     [21;1H~                                                                                                                     [22;1H~                                                                                                                     [23;1H~                                                                                                                     [24;1H~                                                                                                                     [25;1H~                                                                                                                     [26;1H~                                                                                                                     [27;1H~                                                                                                                     [28;1H~                                                                                                                     [29;1H~                                                                                                                     [30;1H~                                                                                                                     [31;1H~                                                                                                                     [32;1H~                                                                                                                     [33;1H~                                                                                                                     [1;1H[?25h[?25l[m[34;1H[K[34;1H:[?2004h[?25hq[?25l[?2004l[34;1H[K[34;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi ~/.bashrc/etc/bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H"/etc/bashrc" [readonly] 98L, 3019C[1;1H# /etc/bashrc
+
+# System wide functions and aliases
+# Environment stuff goes in /etc/profile
+
+# It's NOT a good idea to change this file unless you know what you
+# are doing. It's much better to create a custom.sh shell script in
+# /etc/profile.d/ to make custom changes to your environment, as this
+# will prevent the need for merging in future updates.
+
+# Prevent doublesourcing
+if [ -z "$BASHRCSOURCED" ]; then
+  BASHRCSOURCED="Y"
+
+  # are we an interactive shell?
+  if [ "$PS1" ]; then
+    if [ -z "$PROMPT_COMMAND" ]; then[18;7Hcase $TERM in[19;7Hxterm*|vte*)[20;9Hif [ -e /etc/sysconfig/bash-prompt-xterm ]; then[21;13HPROMPT_COMMAND=/etc/sysconfig/bash-prompt-xterm[22;9Helif [ "${VTE_VERSION:-0}" -ge 3405 ]; then[23;13HPROMPT_COMMAND="__vte_prompt_command"[24;9Helse[25;13HPROMPT_COMMAND='printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'[26;9Hfi[27;9H;;[28;7Hscreen*)[29;9Hif [ -e /etc/sysconfig/bash-prompt-screen ]; then[30;13HPROMPT_COMMAND=/etc/sysconfig/bash-prompt-screen[31;9Helse[32;13HPROMPT_COMMAND='printf "\033k%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'[33;9Hfi[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;33r[33;1H
+[1;34r[33;9H;;[34;1H[K[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;7H*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9H[ -e /etc/sysconfig/bash-prompt-default ] && PROMPT_COMMAND=/etc/sysconfig/bash-prompt-default[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9H;;[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;7Hesac[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Turn on parallel history[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hshopt -s histappend[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hhistory -a[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Turn on checkwinsize[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hshopt -s checkwinsize[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H[ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \W]\\$ "[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# You might want to have e.g. tty in prompt (e.g. more virtual machines)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# and console windows[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# If you want to do so, just add e.g.[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# if [ "$PS1" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H#   PS1="[\u@\h:\l \W]\\$ "[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# fi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# to your custom modification shell script in /etc/profile.d/ directory[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hif ! shopt -q login_shell ; then # We're not a login shell[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Need to redefine pathmunge, it gets undefined at the end of /etc/profile[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hpathmunge () {[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hcase ":${PATH}:" in[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13H*:"$1":*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H;;[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13H*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Hif [ "$2" = "after" ] ; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;21HPATH=$PATH:$1[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;21HPATH=$1:$PATH[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hesac[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H}[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# By default, we want umask to get set. This sets it for non-login shell.[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Current threshold for system reserved uid/gids is 200[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# You could check uidgid reservation validity in[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# /usr/share/doc/setup-*/uidgid file[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hif [ $UID -gt 199 ] && [ "`/usr/bin/id -gn`" = "`/usr/bin/id -un`" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;8Humask 002[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;8Humask 022[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5HSHELL=/bin/bash[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Only display echos from profile.d scripts if we are no login shell[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# and interactive - otherwise just process them to set envvars[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfor i in /etc/profile.d/*.sh; do[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hif [ -r "$i" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Hif [ "$PS1" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H. "$i"[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H. "$i" >/dev/null[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hdone[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hunset i[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hunset -f pathmunge[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;1Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;1H# vim:ts=4:sw=4[28;1H[?25h
+
+
+
+
+[?25l
+[1m-- INSERT --[m [31mW10: Warning: Changing a readonly file[?2004l[?2004h[33;1H[?25h[m# vim:ts=4:sw=4[?25l[1;33r[33;1H
+[1;34r[34;14H[K[33;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;1H[?25h[?25lalias lll='ls -latr'[?25h[34;1H[K[33;20H[?25l[?25h[?25l
+:[?2004h[?25hwq[?25l[97m[41mE45: 'readonly' option is set (add ! to override)[?2004h[33;20H[?25h[?25l[m[34;1H[K[34;1H:[?2004h[?25hwq![?25l[?2004l"/etc/bashrc"
+[97m[41m"/etc/bashrc" E212: Can't open file for writing[?2004h[m
+[32mPress ENTER or type command to continue[?25h[m[1;1H[2L[?25l[1;5H}[34;1H[K[33;20H[?25h[?25l
+:[?2004h[?25hwq![?25l[?2004l"/etc/bashrc"
+[97m[41m"/etc/bashrc" E212: Can't open file for writing[?2004h[m
+[32mPress ENTER or type command to continue[?25h[?25l[m[34;1H[K[34;1H:[?2004h[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[?2004h[m
+[32mPress ENTER or type command to continue[?25h[m[1;1H[3L[?25l[1;5H}[3;5H# By default, we want umask to get set. This sets it for non-login shell.[34;1H[K[33;20H[?25hlatr[?25l
+:[?2004h[?25hq![?25l[?2004l[34;1H[K[34;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi /etc/bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H"/etc/bashrc" [readonly] 98L, 3019C[1;1H# /etc/bashrc
+
+# System wide functions and aliases
+# Environment stuff goes in /etc/profile
+
+# It's NOT a good idea to change this file unless you know what you
+# are doing. It's much better to create a custom.sh shell script in
+# /etc/profile.d/ to make custom changes to your environment, as this
+# will prevent the need for merging in future updates.
+
+# Prevent doublesourcing
+if [ -z "$BASHRCSOURCED" ]; then
+  BASHRCSOURCED="Y"
+
+  # are we an interactive shell?
+  if [ "$PS1" ]; then
+    if [ -z "$PROMPT_COMMAND" ]; then[18;7Hcase $TERM in[19;7Hxterm*|vte*)[20;9Hif [ -e /etc/sysconfig/bash-prompt-xterm ]; then[21;13HPROMPT_COMMAND=/etc/sysconfig/bash-prompt-xterm[22;9Helif [ "${VTE_VERSION:-0}" -ge 3405 ]; then[23;13HPROMPT_COMMAND="__vte_prompt_command"[24;9Helse[25;13HPROMPT_COMMAND='printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'[26;9Hfi[27;9H;;[28;7Hscreen*)[29;9Hif [ -e /etc/sysconfig/bash-prompt-screen ]; then[30;13HPROMPT_COMMAND=/etc/sysconfig/bash-prompt-screen[31;9Helse[32;13HPROMPT_COMMAND='printf "\033k%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'[33;9Hfi[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;33r[33;1H
+[1;34r[33;9H;;[34;1H[K[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;7H*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9H[ -e /etc/sysconfig/bash-prompt-default ] && PROMPT_COMMAND=/etc/sysconfig/bash-prompt-default[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9H;;[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;7Hesac[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Turn on parallel history[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hshopt -s histappend[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hhistory -a[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Turn on checkwinsize[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hshopt -s checkwinsize[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H[ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \W]\\$ "[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# You might want to have e.g. tty in prompt (e.g. more virtual machines)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# and console windows[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# If you want to do so, just add e.g.[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# if [ "$PS1" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H#   PS1="[\u@\h:\l \W]\\$ "[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# fi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# to your custom modification shell script in /etc/profile.d/ directory[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hif ! shopt -q login_shell ; then # We're not a login shell[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Need to redefine pathmunge, it gets undefined at the end of /etc/profile[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hpathmunge () {[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hcase ":${PATH}:" in[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13H*:"$1":*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H;;[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13H*)[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Hif [ "$2" = "after" ] ; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;21HPATH=$PATH:$1[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;21HPATH=$1:$PATH[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hesac[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H}[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# By default, we want umask to get set. This sets it for non-login shell.[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Current threshold for system reserved uid/gids is 200[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# You could check uidgid reservation validity in[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# /usr/share/doc/setup-*/uidgid file[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hif [ $UID -gt 199 ] && [ "`/usr/bin/id -gn`" = "`/usr/bin/id -un`" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;8Humask 002[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;8Humask 022[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5HSHELL=/bin/bash[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# Only display echos from profile.d scripts if we are no login shell[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5H# and interactive - otherwise just process them to set envvars[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hfor i in /etc/profile.d/*.sh; do[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hif [ -r "$i" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Hif [ "$PS1" ]; then[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H. "$i"[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Helse[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;17H. "$i" >/dev/null[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;13Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;9Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hdone[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hunset i[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;5Hunset -f pathmunge[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;3Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;1Hfi[28;1H[?25h[?25l[1;33r[33;1H
+[1;34r[33;1H# vim:ts=4:sw=4[28;1H[?25h
+
+
+
+
+[?25l
+:[?2004h[?25hq[?25l[?2004l[34;1H[K[34;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ chmod g+w /etc/bashrc
+chmod: changing permissions of '/etc/bashrc': Operation not permitted
+bash-4.4$ sudo chmod g+w /etc/bashrc
+chmod: changing permissions of '/etc/bashrc': Operation not permitted
+bash-4.4$ sudo chmod g+w /etc/bashrc
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for tanishasp24: 
+tanishasp24 is not in the sudoers file.  This incident will be reported.
+bash-4.4$ ls
+cs131  index.html
+bash-4.4$ cd[K[Kvi .bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H".bashrc" [New File][2;1H[94m~                                                                                                                     [3;1H~                                                                                                                     [4;1H~                                                                                                                     [5;1H~                                                                                                                     [6;1H~                                                                                                                     [7;1H~                                                                                                                     [8;1H~                                                                                                                     [9;1H~                                                                                                                     [10;1H~                                                                                                                     [11;1H~                                                                                                                     [12;1H~                                                                                                                     [13;1H~                                                                                                                     [14;1H~                                                                                                                     [15;1H~                                                                                                                     [16;1H~                                                                                                                     [17;1H~                                                                                                                     [18;1H~                                                                                                                     [19;1H~                                                                                                                     [20;1H~                                                                                                                     [21;1H~                                                                                                                     [22;1H~                                                                                                                     [23;1H~                                                                                                                     [24;1H~                                                                                                                     [25;1H~                                                                                                                     [26;1H~                                                                                                                     [27;1H~                                                                                                                     [28;1H~                                                                                                                     [29;1H~                                                                                                                     [30;1H~                                                                                                                     [31;1H~                                                                                                                     [32;1H~                                                                                                                     [33;1H~                                                                                                                     [1;1H[?25h[?25l[m[34;1H[1m-- INSERT --[m[34;13H[K[1;1H[?25h[?25lalias lll='ls -latr'[?25h[34;1H[K[1;20H[?25l[?25h[?25l[34;1H:[?2004h[?25hwq[?25l[?2004l".bashrc" [New] 1L, 21C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ ls
+cs131  index.html
+bash-4.4$ lsvi .bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H".bashrc" 1L, 21C[1;1Halias lll='ls -latr'
+[94m~                                                                                                                     [3;1H~                                                                                                                     [4;1H~                                                                                                                     [5;1H~                                                                                                                     [6;1H~                                                                                                                     [7;1H~                                                                                                                     [8;1H~                                                                                                                     [9;1H~                                                                                                                     [10;1H~                                                                                                                     [11;1H~                                                                                                                     [12;1H~                                                                                                                     [13;1H~                                                                                                                     [14;1H~                                                                                                                     [15;1H~                                                                                                                     [16;1H~                                                                                                                     [17;1H~                                                                                                                     [18;1H~                                                                                                                     [19;1H~                                                                                                                     [20;1H~                                                                                                                     [21;1H~                                                                                                                     [22;1H~                                                                                                                     [23;1H~                                                                                                                     [24;1H~                                                                                                                     [25;1H~                                                                                                                     [26;1H~                                                                                                                     [27;1H~                                                                                                                     [28;1H~                                                                                                                     [29;1H~                                                                                                                     [30;1H~                                                                                                                     [31;1H~                                                                                                                     [32;1H~                                                                                                                     [33;1H~                                                                                                                     [1;1H[?25h[?25l[m[34;1H[K[34;1H:[?2004h[?25hq[?25l[?2004l[34;1H[K[34;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ cd [K[K[Klll
+bash: lll: command not found
+bash-4.4$ source .bashrc
+bash-4.4$ lll
+total 260
+-rw-rw-r--  1 tanishasp24 tanishasp24 207991 Feb  1 14:32 index.html
+-rw-rw-r--  1 tanishasp24 tanishasp24     63 Feb  8 14:00 .gitconfig
+drwxr-xr-x 80 root        root          4096 Feb 10 20:18 ..
+-rw-------  1 tanishasp24 tanishasp24  13413 Mar 27 01:32 .viminfo
+-rw-------  1 tanishasp24 tanishasp24  12581 Mar 27 05:48 .bash_history
+-rw-rw-r--  1 tanishasp24 tanishasp24    215 Apr 10 16:42 .wget-hsts
+drwxrwxr-x  9 tanishasp24 tanishasp24   4096 Apr 10 16:51 cs131
+-rw-rw-r--  1 tanishasp24 tanishasp24     21 Apr 10 17:24 .bashrc
+drwx------  3 tanishasp24 S77           4096 Apr 10 17:24 .
+bash-4.4$ rm .bashr[K[K[K[K[K[K[K[K[Kvi .bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H".bashrc" 1L, 21C[1;1Halias lll='ls -latr'
+[94m~                                                                                                                     [3;1H~                                                                                                                     [4;1H~                                                                                                                     [5;1H~                                                                                                                     [6;1H~                                                                                                                     [7;1H~                                                                                                                     [8;1H~                                                                                                                     [9;1H~                                                                                                                     [10;1H~                                                                                                                     [11;1H~                                                                                                                     [12;1H~                                                                                                                     [13;1H~                                                                                                                     [14;1H~                                                                                                                     [15;1H~                                                                                                                     [16;1H~                                                                                                                     [17;1H~                                                                                                                     [18;1H~                                                                                                                     [19;1H~                                                                                                                     [20;1H~                                                                                                                     [21;1H~                                                                                                                     [22;1H~                                                                                                                     [23;1H~                                                                                                                     [24;1H~                                                                                                                     [25;1H~                                                                                                                     [26;1H~                                                                                                                     [27;1H~                                                                                                                     [28;1H~                                                                                                                     [29;1H~                                                                                                                     [30;1H~                                                                                                                     [31;1H~                                                                                                                     [32;1H~                                                                                                                     [33;1H~                                                                                                                     [1;1H[?25h[?25l[m[34;1H[1m-- INSERT --[m[34;13H[K[1;1H[?25halias lll='ls -latr'[?25l[1;20H[K[1;20H[?25h[?25l[1;19H[K[1;19H[?25h[?25l[1;18H[K[1;18H[?25h[?25l[1;17H[K[1;17H[?25h[?25l[1;16H[K[1;16H[?25h[?25l[1;15H[K[1;15H[?25h[?25l[?25h[?25l[1;13H[K[1;13H[?25h[?25l[1;12H[K[1;12H[?25h[?25l[1;11H[K[1;11H[?25h[?25l[1;10H[K[1;10H[?25h[?25l[1;9H[K[1;9H[?25h[?25l[1;8H[K[1;8H[?25h[?25l[1;7H[K[1;7H[?25h[?25l[?25h[?25l[1;5H[K[1;5H[?25h[?25l[1;4H[K[1;4H[?25h[?25l[1;3H[K[1;3H[?25h[?25l[1;2H[K[1;2H[?25h[?25l[1;1H[K[1;1H[?25h[?25la[?25h[?25ll[?25h[?25li[?25h[?25la[?25h[?25ls[?25h[?25l [?25h[?25ll[?25h[?25l [?25h[?25l=[?25h[?25l [?25h[?25l'[?25h[?25ll[?25h[?25ls[?25h[?25l [?25h[?25l-[?25h[?25ll[?25h[?25lt[?25h[?25lr[?25h[?25l'[?25h[?25l[2;1H[K[2;1H[?25h[?25la[?25h[?25ll[?25h[?25li[?25h[?25la[?25h[?25ls[?25h[?25l [?25h[?25lw[?25h[?25l [?25h[?25l=[?25h[?25l [?25h[?25l'[?25h[?25ll[?25h[?25ls[?25h[?25l [?25h[?25l-[?25h[?25ll[?25h[?25l [?25h[?25l|[?25h[?25l [?25h[?25lw[?25h[?25lc[?25h[?25l'[?25h[34;1H[K[2;22H[?25l[?25h[?25l[34;1H:[?2004h[?25hwq[?25l[?2004l".bashrc" 2L, 43C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ source .bashrc
+bash: alias: l: not found
+bash: alias: =: not found
+bash: alias: ls -ltr: not found
+bash: alias: w: not found
+bash: alias: =: not found
+bash: alias: ls -l | wc: not found
+bash-4.4$ source .bashrc[C[C[C[C[C[C[C[C[C[C[4Pvi[C[C[C[C[C[C[C[C
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H".bashrc" 2L, 43C[1;1Halias l = 'ls -ltr'
+alias w = 'ls -l | wc'
+[94m~                                                                                                                     [4;1H~                                                                                                                     [5;1H~                                                                                                                     [6;1H~                                                                                                                     [7;1H~                                                                                                                     [8;1H~                                                                                                                     [9;1H~                                                                                                                     [10;1H~                                                                                                                     [11;1H~                                                                                                                     [12;1H~                                                                                                                     [13;1H~                                                                                                                     [14;1H~                                                                                                                     [15;1H~                                                                                                                     [16;1H~                                                                                                                     [17;1H~                                                                                                                     [18;1H~                                                                                                                     [19;1H~                                                                                                                     [20;1H~                                                                                                                     [21;1H~                                                                                                                     [22;1H~                                                                                                                     [23;1H~                                                                                                                     [24;1H~                                                                                                                     [25;1H~                                                                                                                     [26;1H~                                                                                                                     [27;1H~                                                                                                                     [28;1H~                                                                                                                     [29;1H~                                                                                                                     [30;1H~                                                                                                                     [31;1H~                                                                                                                     [32;1H~                                                                                                                     [33;1H~                                                                                                                     [1;1H[?25h[?25l[m[34;1H[1m-- INSERT --[m[34;13H[K[1;1H[?25halias l [?25l= 'ls -ltr'[1;19H[K[1;8H[?25h= [?25l'ls -ltr'[1;18H[K[1;9H[?25h[2;9H[?25l= 'ls -l | wc'[2;22H[K[2;8H[?25h= [?25l'ls -l | wc'[2;21H[K[2;9H[?25h[34;1H[K[2;8H[?25l[?25h[?25l[34;1H:[?2004h[?25hq[?25l[34;2H[K[34;2H[?25hwq[?25l[?2004l".bashrc" 2L, 39C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi .bashrc[4@source[C[C[C[C[C[C[C[C
+bash-4.4$ source .bashrc[C[C[C[C[C[C[C[C[C[C[Kl
+total 208
+-rw-rw-r-- 1 tanishasp24 tanishasp24 207991 Feb  1 14:32 index.html
+drwxrwxr-x 9 tanishasp24 tanishasp24   4096 Apr 10 16:51 cs131
+bash-4.4$ w
+      3      20     141
+bash-4.4$ ls
+cs131  index.html
+bash-4.4$ ls[1Pwlsource .bashrc[C[C[C[C[C[C[C[C[C[C[4Pvi[C[C[C[C[C[C[C[C
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;34r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[34;1H".bashrc" 2L, 39C[1;1Halias l='ls -ltr'
+alias w='ls -l | wc'
+[94m~                                                                                                                     [4;1H~                                                                                                                     [5;1H~                                                                                                                     [6;1H~                                                                                                                     [7;1H~                                                                                                                     [8;1H~                                                                                                                     [9;1H~                                                                                                                     [10;1H~                                                                                                                     [11;1H~                                                                                                                     [12;1H~                                                                                                                     [13;1H~                                                                                                                     [14;1H~                                                                                                                     [15;1H~                                                                                                                     [16;1H~                                                                                                                     [17;1H~                                                                                                                     [18;1H~                                                                                                                     [19;1H~                                                                                                                     [20;1H~                                                                                                                     [21;1H~                                                                                                                     [22;1H~                                                                                                                     [23;1H~                                                                                                                     [24;1H~                                                                                                                     [25;1H~                                                                                                                     [26;1H~                                                                                                                     [27;1H~                                                                                                                     [28;1H~                                                                                                                     [29;1H~                                             
