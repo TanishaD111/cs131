@@ -1,0 +1,3 @@
+Here is the mean (average) of the number of subscribers in each file
+Mean for United States: 23416932 subscribers
+Mean for India: 25658333 subscribers
