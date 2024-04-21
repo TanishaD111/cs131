@@ -733,21 +733,56 @@
   733  last > Assignment3.txt
   734  last tanishasp24 
   735  last tanishasp24 >> Assignment3.txt
+  
+---------- Assignment 3 ----------
+
+----- Get Your Data Set -----
+
   736  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/last.fake
   737  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/passwd.fake
   738  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/ps.fake
+
+---- Task 1 -----
+
+Q1:
   739  man last
   740  last > Assignment3.txt
   741  last tanishasp24 >> Assignment3.txt
+
+1:
   742  awk 'END {print NR}' last.fake >> Assignment3.txt
+
+2: 
   743  awk '/sp24/' last.fake > lastsp24.fake
+
+3:
   744  awk 'END {print NR}' lastsp24.fake >> Assignment3.txt
+
+----- Task 2 -----
+
   745  grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN { print "The list of people who worked on Sunday are:" } { print } END { print "Kudos to these people for putting in the work" }' >> Assignment3.txt
+
+----- Task 3 -----
+
   746  awk '{split($7, time, ":"); if (time[1] >= 23 || time[1] <= 4) print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN { print "Night Owls List:" } { print } END { print "Night Owls are dope. Please ensure you get enough sleep though." }' >> Assignment3.txt
+
+----- Task 4 -----
+
   747  awk '{split($7, time, ":"); if (time[1] >= 5 && time[1] <= 9) print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN { print "Early Birds List:" } { print } END { print "Early Birds are dope. Please ensure you get enough sleep though." }' >> Assignment3.txt
+
+----- Task 5 -----
+
   748  awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq >> Assignment3.txt
+
+----- Task 6 -----
+
   749  awk -F: 'match($1, /^a/) && $3 % 2 == 0 {print $1}' passwd.fake >> Assignment3.txt
+
+----- Task 7 -----
+
   750  sed -e 's/[a-zA-Z]//g' -e 's/[0-9]//g' -e 's/ //g' passwd.fake | sort -u >> Assignment3.txt
+
+
   751  vi Assignment3.txt 
   752  git add .
   753  history > cmds.log

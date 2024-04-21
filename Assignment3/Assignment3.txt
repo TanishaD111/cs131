@@ -1,3 +1,10 @@
+----- Task 1 -----
+
+Q1: 
+
+Command(s) used to solve: last > Assignment3.txt
+Output of Command:
+
 tanishas pts/28       172.29.96.187    Sun Apr 21 00:43   still logged in
 sunidhis pts/27       172.29.96.185    Sun Apr 21 00:22   still logged in
 sunidhis pts/27       172.29.96.185    Sun Apr 21 00:03 - 00:20  (00:17)
@@ -885,6 +892,10 @@ gradysp2 pts/1        172.29.97.221    Thu Mar 21 05:31 - 05:45  (00:13)
 brandons pts/1        172.29.97.218    Thu Mar 21 04:00 - 04:03  (00:03)
 
 wtmp begins Thu Mar 21 03:57:54 2024
+
+Command(s) used to solve: last tanishasp24 >> Assignment3.txt
+Output of Command:
+
 tanishas pts/28       172.29.96.187    Sun Apr 21 00:43   still logged in
 tanishas pts/27       172.29.96.201    Sat Apr 20 21:31 - 22:05  (00:34)
 tanishas pts/69       172.29.96.196    Sat Apr 20 01:03 - 04:26  (03:23)
@@ -896,8 +907,31 @@ tanishas pts/45       172.29.96.104    Wed Apr 10 16:38 - 17:39  (01:01)
 tanishas pts/17       172.29.96.39     Wed Mar 27 00:35 - 05:48  (05:12)
 
 wtmp begins Thu Mar 21 03:57:54 2024
+
+1. 
+
+Command(s) used to solve: awk 'END {print NR}' last.fake >> Assignment3.txt
+Output of Command:
+
 507
+
+2. 
+
+Command(s) used to solve: awk '/sp24/' last.fake > lastsp24.fake
+Output of Command: No output.
+
+3.
+
+Command(s) used to solve: awk 'END {print NR}' lastsp24.fake >> Assignment3.txt
+Output of Command:
+
 478
+
+----- Task 2 -----
+
+Command(s) used to solve: grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN { print "The list of people who worked on Sunday are:" } { print } END { print "Kudos to these people for putting in the work" }' >> Assignment3.txt
+Output of Command:
+
 The list of people who worked on Sunday are:
 aayushsp24
 akashsp24
@@ -912,6 +946,12 @@ michellesp24
 swansp24
 xuebosp24
 Kudos to these people for putting in the work
+
+----- Task 3 -----
+
+Command(s) used to solve: awk '{split($7, time, ":"); if (time[1] >= 23 || time[1] <= 4) print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN { print "Night Owls List:" } { print } END { print "Night Owls are dope. Please ensure you get enough sleep though." }' >> Assignment3.txt
+Output of Command:
+
 Night Owls List:
 aarushisp24
 aayushsp24
@@ -977,6 +1017,12 @@ xuebosp24
 yelinsp24
 zakisp24
 Night Owls are dope. Please ensure you get enough sleep though.
+
+----- Task 4 -----
+
+Command(s) used to solve: awk '{split($7, time, ":"); if (time[1] >= 5 && time[1] <= 9) print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN { print "Early Birds List:" } { print } END { print "Early Birds are dope. Please ensure you get enough sleep though." }' >> Assignment3.txt
+Output of Command:
+
 Early Birds List:
 aayushsp24
 ajaysp24
@@ -984,10 +1030,22 @@ ericsp24
 gradysp24
 ronsp24
 Early Birds are dope. Please ensure you get enough sleep though.
+
+----- Task 5 -----
+
+Command(s) used to solve: awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq >> Assignment3.txt
+Output of Command:
+
 taliasp24
 tanishasp24
 tylermsp24
 tylersp24
+
+----- Task 6 -----
+
+Command(s) used to solve: awk -F: 'match($1, /^a/) && $3 % 2 == 0 {print $1}' passwd.fake >> Assignment3.txt
+Output of Command:
+
 angie23fa
 areebah23fa
 apple23fa
@@ -1002,6 +1060,12 @@ aayushsp24
 ajaysp24
 ashish
 amansp24
+
+----- Task 7 -----
+
+Command(s) used to solve: sed -e 's/[a-zA-Z]//g' -e 's/[0-9]//g' -e 's/ //g' passwd.fake | sort -u >> Assignment3.txt
+Output of Command:
+
 -::::-:/://
 -:::::///-://
 -:::::///__/-://
