@@ -1,5 +1,5 @@
-
-73 UnitedStates/Music.txt
-80 UnitedStates/Entertainment.txt
-26 UnitedStates/Gaming.txt
-22 UnitedStates/Comedy.txt
+ 
+73 UnitedStates/Music.txt --> There are 73 entries in "Workhsheet 5/United States/Music.txt"
+80 UnitedStates/Entertainment.txt --> There are 80 entries in "Workhsheet 5/United States/Entertainment.txt"
+26 UnitedStates/Gaming.txt --> There are 26 entries in "Workhsheet 5/United States/Gaming.txt"
+22 UnitedStates/Comedy.txt --> There are 22 entries in "Workhsheet 5/United States/Comedy.txt"

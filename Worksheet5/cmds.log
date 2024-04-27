@@ -768,12 +768,19 @@
   768  git add .
   769  git commit -m "updated again" -a
   770  git push -u origin master
+
+-------------------- Worksheet 5 --------------------
+
+----- Setting up directory and importing data -----
   771  cd cs131
   772  ls
   773  mkdir Worksheet5
   774  cd Worksheet5
   775  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
   776  ls
+
+----- Creating the script and giving myself permission to run it -----
+
   777  vi script.sh
   778  ./script.sh
   779  chmod u+x script.sh
@@ -781,7 +788,13 @@
   781  vi script.sh
   782  ./script.sh
   783  vi script.sh
+
+----- Creating the UnitedStates directory to store the .txt files of separate categories -----
+
   784  mkdir UnitedStates
+
+----- Running the script and debugging code to make it function accurately -----
+
   785  ./script.sh
   786  ls
   787  cd UnitedStates/
